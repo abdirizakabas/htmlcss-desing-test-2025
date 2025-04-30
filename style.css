@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    color: #fff;
+    isolation: isolate;
+}
+
+.background-image{
+    min-height: 100vh;
+    width: 100%;
+    position: relative;
+}
+.background-image::before{
+    content:'';
+    background-image:url('bg-02-free-img.jpg');
+    background-size: cover;
+    filter: brightness(0.5);
+    position: absolute;
+    inset: 0;
+    /* inset waa top left right bottom  */
+}
+.header-container{
+    display: flex;
+}
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items:center ;
+  padding: 5px 30px;
+  isolation: isolate; 
+  /* isolation waxa uu igacawinaa inaa text aan banaanka keeno */
+}
+.nav-link ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    gap: 20px;
+    padding: 10px 10px;
+    margin: 0 10px;
+    font-size: 12px;
+}
+.nav-link ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+.nav-link .source{
+    background-color: #982020;
+    padding: 12px;
+    border-radius:18px;
+    font-size: 13px;
+    font-weight: bold;
+
+}
+.welcome{
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.welcome::before{
+    position: absolute;
+    top: 0;
+    left: 0;
+    
+}
+.welcome{
+    position: absolute;
+    top: 40%;
+    left: 35%;
+    text-align: center;
+}
+.welcome p{
+    padding-bottom: 20px;
+    font-weight: bolder;
+    font-size:20px;
+}
+.welcome h2{
+    padding-bottom:25px ;
+    font-size: 50px;
+    font-weight: bolder;
+}
+.welcome button{
+    background-color: #982020;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 15px;
+    font-weight: bolder;
+}

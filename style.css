@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: sans-serif;
+    font-family: 'Montserrat', sans-serif;
     color: #fff;
     isolation: isolate;
 }
@@ -13,7 +13,8 @@
     position: relative;
 }
 .background-image::before{
-    content:'';
+    content:''; 
+    /* content waa muhiim si aad umuujiso pseudo elementga  */
     background-image:url('bg-02-free-img.jpg');
     background-size: cover;
     filter: brightness(0.5);
@@ -82,6 +83,137 @@
     font-weight: bolder;
 }
 .welcome button{
+    background-color: #982020;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 15px;
+    font-weight: bolder;
+}
+.about{
+    text-align: center;
+    padding: 90px ;
+}
+.about p{
+    padding: 20px;
+    color: #ffffff9e;
+    line-height: 1.4rem;
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+}
+.about .p-us{
+    color: #fff;
+    font-size: 15px;
+    font-weight: bolder;
+}
+.about h2{
+    padding: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 27px;
+    font-weight: bold;
+}
+.about button{
+    margin-top: 20px;
+    background-color: #982020;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 15px;
+    font-weight: bolder;
+}
+.service{
+    min-height: 100vh;
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 100px ;
+    gap: 25%;
+ 
+}
+.service::before{
+    content: '';
+    background-image:url('bg-09-free-img.jpg') ;
+    background-position: center;
+    background-size: cover;
+    filter: brightness(0.3);
+    position: absolute;
+    inset: 0;
+
+}
+.service .what-we-do{
+   
+}
+.service .what-we-do .what-it-telling{
+    border-top: 1px solid rgb(255, 255, 255);
+    padding: 20px 0px;
+
+}
+.service .what-we-do h5{
+    font-weight: bolder;
+    font-size: 16px;
+}
+.service .what-we-do h3{
+    font-weight: bold;
+    font-size: 23px;
+    padding: 20px 0px;
+}
+.service .what-we-do h4{
+    font-size: 18px;
+}
+.service .what-we-do p{
+    padding: 10px 0px;
+    font-size: 14px;
+    color: #ffffff9e;
+}
+.service .sunshine{
+    font-size: 20px;
+}
+.projects{
+    padding: 100px 0px;
+    
+}
+.projects .title{
+    text-align: center;
+}
+.projects .title h5{
+        padding: 12px 0;
+        font-size: 15px;
+}
+.projects .title h3{
+    padding:10px 0;
+    font-size: 27px;
+    font-weight: bold;
+}
+.forest-image{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 100%;
+    max-height: auto;
+    gap: 50px;
+    padding:3% 10%;
+    line-height: 1.6rem;
+}
+.forest-image img{
+   width: 100%;
+
+}
+.forest-image h4{
+    font-size: 20px;
+}
+.forest-image p{
+    font-size: 14px;
+    color: #ffffff9e;
+}
+.projects .forest-bottom-text{
+    display: flex;
+    justify-content: space-between;
+    padding: 4% 10%;
+}
+.projects .forest-bottom-text h3{
+    font-size: 24px;
+}
+.projects .forest-bottom-text button{
     background-color: #982020;
     padding: 12px 20px;
     border: none;

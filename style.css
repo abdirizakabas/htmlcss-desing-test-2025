@@ -220,3 +220,63 @@
     border-radius: 15px;
     font-weight: bolder;
 }
+.last-section{
+    align-items: center;
+    color: #e8e6e3;
+    background-color: #01121f;
+    line-height: 1.4rem;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+.last-section .information{
+    display: flex;
+    justify-content: space-between;
+    padding: 100px;
+    gap: 50px;
+
+    
+}
+.last-section .informaton h2{
+    font-size: 5px;
+}
+.last-section .information .about-footer{
+    font-size: 12px;
+    padding: 10px 0;
+}
+
+.last-section .information .about-footer h2{
+    font-size: 15px;
+    padding : 10px 0;
+}
+.last-section .information .service-footer h2{
+    font-size: 15px;
+    padding : 10px 0;
+
+}
+.last-section .information .service-footer ul{
+    list-style: none;
+}
+.last-section .information .service-footer ul li a{
+    font-size: 12px;
+    text-decoration: none;
+}
+.last-section .information .contact-footer h2{
+    font-size: 15px;
+    padding: 10px 0;
+}
+.last-section .information .contact-footer{
+    font-size: 12px;
+}
+.last-section .information .contact-footer ul {
+    list-style: none;
+}
+.last-section .information .contact-footer  a{
+    text-decoration: none;
+
+}
+.last-section .footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 100px;
+    font-size: 12px;
+}
